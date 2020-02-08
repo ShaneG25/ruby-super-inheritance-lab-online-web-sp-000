@@ -5,7 +5,6 @@ class ChattyStudent < Student
   end 
   
   def raise_hand 
-    super.each do {|super| super * 10}  
-    puts "Pick me!"
+    super  
   end 
 end 
